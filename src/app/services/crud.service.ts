@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-export const URL =  'http://localhost/';
+export const URL =  'http://localhost/adacardsAPI/';
 
 
 const token   =  window.localStorage.getItem('token');
