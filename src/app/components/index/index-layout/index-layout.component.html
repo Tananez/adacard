@@ -1,0 +1,19 @@
+<a routerLink="/index/login" routerLinkActive="active">Login</a>
+<a routerLink="/index/register" routerLinkActive="active">Register</a>
+<a routerLink="/index/recover" routerLinkActive="active">Recover</a>
+<br>
+<a routerLink="/index/login" routerLinkActive="active">INDEX</a>
+<a routerLink="/user/home" routerLinkActive="active">USER</a>
+<a routerLink="/admin/dashboard" routerLinkActive="active">ADMIN</a>
+
+<ul id="language">
+    <li><a (click)="useLanguage('en')"><span class="flags en">EN</span></a></li>
+    <li><a (click)="useLanguage('de')"><span class="flags de">DE</span></a></li>
+    <li><a (click)="useLanguage('ro')"><span class="flags ro">RO</span></a></li>
+    <li><a (click)="useLanguage('es')"><span class="flags es">ES</span></a></li>
+    <li><a (click)="useLanguage('pl')"><span class="flags pl">PL</span></a></li>
+    <li><a (click)="useLanguage('pt')"><span class="flags pt">PT</span></a></li>
+    <li><a (click)="useLanguage('ru')"><span class="flags ru">RU</span></a></li>
+</ul>
+{{'test'|translate}}
+<router-outlet></router-outlet>
